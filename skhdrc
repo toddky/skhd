@@ -11,8 +11,12 @@
 # ==============================================================================
 # EXAMPLES
 # ==============================================================================
+# skhdrc:
 # - https://github.com/bashbunni/dotfiles/blob/main/.config/skhd/skhdrc
 # - https://github.com/arunvelsriram/dotfiles/blob/master/skhdrc
+# Hammerspoon:
+# - https://github.com/elliotwaite/hammerspoon-config/blob/master/init.lua
+# - https://github.com/rtauziac/Hammerspoon-Yabai/blob/master/.hammerspoon/yabai.lua
 
 # ==============================================================================
 # NAVIGATION
