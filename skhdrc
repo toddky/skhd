@@ -12,8 +12,8 @@
 # EXAMPLES
 # ==============================================================================
 # skhdrc:
-# - https://github.com/bashbunni/dotfiles/blob/main/.config/skhd/skhdrc
 # - https://github.com/arunvelsriram/dotfiles/blob/master/skhdrc
+# - https://github.com/bashbunni/dotfiles/blob/main/.config/skhd/skhdrc
 # Hammerspoon:
 # - https://github.com/elliotwaite/hammerspoon-config/blob/master/init.lua
 # - https://github.com/rtauziac/Hammerspoon-Yabai/blob/master/.hammerspoon/yabai.lua
@@ -51,4 +51,11 @@ cmd + alt - u : brew services start yabai
 #hyper - return : /Applications/iTerm.app/Contents/MacOS/iTerm2
 #hyper - return : open -a logseq
 cmd + alt - return : open -a logseq
+
+
+# ==============================================================================
+# OTHER
+# ==============================================================================
+# Screenshot
+ctrl - s : mac-ss
 
