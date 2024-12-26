@@ -33,6 +33,13 @@ cmd + alt - h : yabai -m window --focus west
 cmd + alt - j : yabai -m window --focus south
 cmd + alt - k : yabai -m window --focus north
 cmd + alt - l : yabai -m window --focus east
+
+# Move window
+cmd + alt - left  : yabai-move-window left
+cmd + alt - down  : yabai -m window --warp south
+cmd + alt - up    : yabai -m window --warp north
+cmd + alt - right : yabai-move-window right
+
 #hyper - h : yabai -m window --focus west
 #hyper - j : yabai -m window --focus south
 #hyper - k : yabai -m window --focus north
