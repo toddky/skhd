@@ -22,17 +22,23 @@
 # MAIN
 # ==============================================================================
 #rshift - a : mac notify testing
+cmd + alt + ctrl - space : mac notify testing
+
 
 # ==============================================================================
 # YABAI
 # ==============================================================================
+cmd + alt - a : yabai-work
 
 # Navigate displays
 shift + cmd + alt - h : yabai -m display --focus prev || yabai -m display --focus last
 shift + cmd + alt - l : yabai -m display --focus next || yabai -m display --focus first
-# Navigate paces
-shift + cmd + alt - k : yabai -m space --focus prev || yabai -m space --focus last
-shift + cmd + alt - j : yabai -m space --focus next || yabai -m space --focus first
+# Navigate spaces
+#shift + cmd + alt - k : yabai -m space --focus prev || yabai -m space --focus last
+#shift + cmd + alt - j : yabai -m space --focus next || yabai -m space --focus first
+# Navigate stacks
+shift + cmd + alt - k : yabai -m window --focus stack.prev || yabai -m window --focus stack.last
+shift + cmd + alt - j : yabai -m window --focus stack.next || yabai -m window --focus stack.first
 # Navigate windows
 cmd + alt - h : yabai -m window --focus west
 cmd + alt - j : yabai -m window --focus south
