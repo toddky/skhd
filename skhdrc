@@ -24,35 +24,33 @@
 #rshift - a : mac notify testing
 
 # ==============================================================================
-# YABAI NAVIGATION
+# YABAI
 # ==============================================================================
+
+# Navigate displays
 shift + cmd + alt - h : yabai -m display --focus prev || yabai -m display --focus last
 shift + cmd + alt - l : yabai -m display --focus next || yabai -m display --focus first
-
+# Navigate paces
 shift + cmd + alt - k : yabai -m space --focus prev || yabai -m space --focus last
 shift + cmd + alt - j : yabai -m space --focus next || yabai -m space --focus first
-
-cmd + alt - tab : yabai -m window --focus recent
-
+# Navigate windows
 cmd + alt - h : yabai -m window --focus west
 cmd + alt - j : yabai -m window --focus south
 cmd + alt - k : yabai -m window --focus north
 cmd + alt - l : yabai -m window --focus east
+cmd + alt - tab : yabai -m window --focus recent
 
+# Move Spaces
+shift + cmd + alt - left  : yabai -m space --move prev
+shift + cmd + alt - left  : yabai -m space --move next
 # Move window
 cmd + alt - left  : yabai-move-window left
 cmd + alt - down  : yabai -m window --warp south
 cmd + alt - up    : yabai -m window --warp north
 cmd + alt - right : yabai-move-window right
 
-#hyper - h : yabai -m window --focus west
-#hyper - j : yabai -m window --focus south
-#hyper - k : yabai -m window --focus north
-#hyper - l : yabai -m window --focus east
-
 # Toggle fullscreen
 cmd + alt - f : yabai -m window --toggle zoom-fullscreen
-#hyper - f : yabai -m window --toggle zoom-fullscreen
 
 # Start/Stop
 cmd + alt - r : yabai --restart-service
