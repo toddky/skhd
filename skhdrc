@@ -13,16 +13,21 @@
 # ==============================================================================
 # skhdrc:
 # - https://github.com/arunvelsriram/dotfiles/blob/master/skhdrc
-# - https://github.com/bashbunni/dotfiles/blob/main/.config/skhd/skhdrc
 # Hammerspoon:
 # - https://github.com/elliotwaite/hammerspoon-config/blob/master/init.lua
 # - https://github.com/rtauziac/Hammerspoon-Yabai/blob/master/.hammerspoon/yabai.lua
 
+
 # ==============================================================================
-# NAVIGATION
+# MAIN
 # ==============================================================================
-shift + cmd + alt - h : yabai -m display --focus prev
-shift + cmd + alt - l : yabai -m display --focus next
+#rshift - a : mac notify testing
+
+# ==============================================================================
+# YABAI NAVIGATION
+# ==============================================================================
+shift + cmd + alt - h : yabai -m display --focus prev || yabai -m display --focus last
+shift + cmd + alt - l : yabai -m display --focus next || yabai -m display --focus first
 
 shift + cmd + alt - k : yabai -m space --focus prev || yabai -m space --focus last
 shift + cmd + alt - j : yabai -m space --focus next || yabai -m space --focus first
@@ -50,8 +55,12 @@ cmd + alt - f : yabai -m window --toggle zoom-fullscreen
 #hyper - f : yabai -m window --toggle zoom-fullscreen
 
 # Start/Stop
+cmd + alt - r : yabai --restart-service
 cmd + alt - q : brew services stop yabai
 cmd + alt - u : brew services start yabai
+
+# iTerm2
+cmd + alt - n : /Applications/iTerm.app/Contents/MacOS/iTerm2
 
 # Notes
 #hyper - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
@@ -65,4 +74,6 @@ cmd + alt - return : open -a logseq
 # ==============================================================================
 # Screenshot
 ctrl - s : mac-ss
+
+# https://support.apple.com/en-us/HT201236
 
