@@ -37,8 +37,8 @@ shift + cmd + alt - l : yabai -m display --focus next || yabai -m display --focu
 #shift + cmd + alt - k : yabai -m space --focus prev || yabai -m space --focus last
 #shift + cmd + alt - j : yabai -m space --focus next || yabai -m space --focus first
 # Navigate stacks
-shift + cmd + alt - k : yabai -m window --focus stack.prev || yabai -m window --focus stack.last
-shift + cmd + alt - j : yabai -m window --focus stack.next || yabai -m window --focus stack.first
+shift + cmd + alt - k : yabai-focus-stack prev
+shift + cmd + alt - j : yabai-focus-stack next
 # Navigate windows
 cmd + alt - h : yabai-focus-window left
 cmd + alt - j : yabai-focus-window down
