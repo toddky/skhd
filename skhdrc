@@ -72,6 +72,8 @@ cmd + alt - n : /Applications/iTerm.app/Contents/MacOS/iTerm2
 #hyper - return : open -a logseq
 cmd + alt - return : open -a logseq
 
+# 0x18 is =
+cmd + alt - 0x18 : yabai -m space --balance
 
 # ==============================================================================
 # OTHER
