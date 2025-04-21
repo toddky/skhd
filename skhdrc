@@ -54,6 +54,11 @@ cmd + alt - left  : yabai-move-window left
 cmd + alt - down  : yabai -m window --warp south
 cmd + alt - up    : yabai -m window --warp north
 cmd + alt - right : yabai-move-window right
+cmd + alt - up    : yabai-move-window up
+cmd + alt - down  : yabai-move-window down
+cmd + alt - s     : yabai -m window --insert south
+cmd + alt - v     : yabai -m window --insert east
+cmd + alt - i     : yabai -m window --insert stack
 
 # Toggle fullscreen
 cmd + alt - f : yabai -m window --toggle zoom-fullscreen
